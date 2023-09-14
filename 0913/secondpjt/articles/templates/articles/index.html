@@ -1,0 +1,10 @@
+
+{% extends "articles/base.html" %}
+{% comment %}extends : indext.html이 base.html을 상속 받겠다.{% endcomment %}
+
+
+<link rel='stylesheet' href='style.css'>
+{% block content %}
+    {% comment %} DTL: 변수 {% endcomment %}
+    <h1>Hello, {{name}} </h1>
+{% endblock content %}
